@@ -24,3 +24,7 @@ Route::get('/vue-learning', function () {
 Route::get('/vue-attribute-binding', function () {
     return view('vue-attribute-binding');
 });
+
+Route::get('/vue-lists-and-computed-properties', function () {
+    return view('vue-lists-and-computed-properties');
+});
