@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/vue-learning', function () {
     return view('vue-learning');
 });
+
+Route::get('/vue-attribute-binding', function () {
+    return view('vue-attribute-binding');
+});
