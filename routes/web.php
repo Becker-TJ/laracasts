@@ -28,3 +28,7 @@ Route::get('/vue-attribute-binding', function () {
 Route::get('/vue-lists-and-computed-properties', function () {
     return view('vue-lists-and-computed-properties');
 });
+
+Route::get('/vue-custom-component', function () {
+    return view('vue-custom-component');
+});
